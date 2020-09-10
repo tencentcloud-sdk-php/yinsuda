@@ -1,0 +1,23 @@
+{
+    "name": "tencentcloud/yinsuda",
+    "description": "TencentCloudApi php sdk yinsuda",
+    "type": "library",
+    "homepage": "https://github.com/tencentcloud-sdk-php/yinsuda",
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "tencentcloudapi",
+            "email": "tencentcloudapi@tencent.com",
+            "homepage": "https://github.com/tencentcloud-sdk-php/yinsuda",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "tencentcloud/common": "3.0.248"
+    },
+    "autoload": {
+        "psr-4": {
+            "TencentCloud\\": "./src/TencentCloud"
+        }
+    }
+}
